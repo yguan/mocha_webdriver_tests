@@ -6,5 +6,5 @@ function injectJs(link) {
 }
 
 function injectCss(link) {
-
+// todo: change file to injectScript
 }
