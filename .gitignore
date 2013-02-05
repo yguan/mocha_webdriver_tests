@@ -167,3 +167,6 @@ node_modules/
 
 # Webstorm
 .idea/
+
+# Packaging
+www-built/

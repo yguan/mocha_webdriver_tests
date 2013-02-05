@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../node_modules/mocha/mocha.css" />
+    <script src="js/lib/require.js"></script>
+    <script src="../node_modules/mocha/mocha.js"></script>
+    <script>
+		mocha.ui('bdd');
+		mocha.reporter('html');
+
+        require(['./js/config'], function () {
+			require(['specs/all'], function () {
+                window.mocha.run();
+			});
+        });
+    </script>
+
+</head>
+<body>
+	<div id='mocha'></div>
+</body>
+</html>
