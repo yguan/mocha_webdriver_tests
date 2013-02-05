@@ -4,6 +4,11 @@ This repository contains skeleton example on how to use mocha and webdriverjs to
 
 ## Installation and Build
 
+Prerequisites
+
+* node.js
+* grunt.js (run `npm install -g grunt` to install it)
+
 Steps
 
 1. Installation
