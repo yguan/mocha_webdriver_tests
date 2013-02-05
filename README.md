@@ -15,6 +15,6 @@ Steps
 
 ## Running the tests in a browser
 
-To run without packaging, open the test.html file under [root]/tests folder.
+To run without packaging, open the test.html file under `[root]/tests` folder.
 
-To run with packaging, open the test.html file under [root]/www-built folder.
+To run with packaging, open the test.html file under `[root]/www-built` folder.
