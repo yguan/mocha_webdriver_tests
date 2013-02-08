@@ -16,7 +16,7 @@ Steps
 2. Navigate to the root folder, and then run `npm install`.
 3. Download [Selenium server](http://selenium.googlecode.com/files/selenium-server-standalone-2.28.0.jar) and put in `C:/Utilities/selenium/selenium-server-standalone-2.28.0.jar`.
 
-## Running the tests in a browser
+## Running the tests with grunt
 
 In the root folder, run the following grunt commands sequentially in separate console window. Run `grunt.cmd` for Window cmd.
 
