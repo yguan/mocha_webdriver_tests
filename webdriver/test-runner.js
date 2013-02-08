@@ -12,13 +12,13 @@ browser.on('command', function(meth, path, data){
 
 browser.init({
     browserName: 'firefox',
-    tags: ['google test'],
+    tags: ['some test'],
     name: 'This is an example test'
 }).then(function () {
         return browser.get(runnerConfig.testSiteUrl);
     }).then(function () {
         return browser.execute(runnerConfig.getScriptsToInject());
     }).fin(function () {
-        //browser.quit();
+        //browser.quit(); // todo: get the test results back and close the browser
     }).done();
 

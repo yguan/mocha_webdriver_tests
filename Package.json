@@ -10,6 +10,7 @@
         "wd": "0.0.30"
     },
     "devDependencies": {
-        "grunt-contrib-requirejs": "0.3.4"
+        "grunt-bg-shell": "1.0.2",
+        "grunt-connect": "0.2.0"
     }
 }

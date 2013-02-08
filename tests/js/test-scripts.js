@@ -1,3 +1,8 @@
+
+window.testConfig = {
+    testScriptUrl: 'http://localhost:8000/' // change it to the site that hosts the scripts
+};
+
 (function () {
     function injectJs(link) {
         var scr = document.createElement('script');
@@ -6,7 +11,8 @@
         document.getElementsByTagName('head')[0].appendChild(scr);
     }
 
-    var testscriptBaseUrl = 'http://localhost:8000/';
-    injectJs(testscriptBaseUrl + 'js/lib/require.js');
-    injectJs(testscriptBaseUrl + 'js/base.js');
+    var testScriptUrl = window.testConfig.testScriptUrl;
+
+    injectJs(testScriptUrl + 'js/lib/require.js');
+    injectJs(testScriptUrl + 'js/base.js');
 })();

@@ -1,4 +1,3 @@
-var baseUrl = 'http://localhost:8000/';
 
 requirejs.config({
 	//appDir: 'tests',
@@ -12,6 +11,8 @@ requirejs.config({
 		jquery: 'js/lib/jquery-1.8.3.min',
 		specs: 'js/specs'
     },
+
+    // doesn't seem to be needed
     shim: {
         jquery: {
             exports: '$'
