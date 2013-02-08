@@ -21,6 +21,7 @@ Steps
 ## Running the tests in a browser
 
 In the root folder, run the following grunt commands sequentially in separate console window. Run `grunt.cmd` for Window cmd.
+
 1. `grunt startTestServer`
 2. `grunt startSeleniumServer`
 3. `grunt runTests`
