@@ -15,8 +15,6 @@ Steps
 1. Open your bash console. `If use windows cmd, make sure to change the path in grunt.js.`
 2. Navigate to the root folder, and then run `npm install`.
 3. Download [Selenium server](http://selenium.googlecode.com/files/selenium-server-standalone-2.28.0.jar) and put in `C:/Utilities/selenium/selenium-server-standalone-2.28.0.jar`.
-   *
-   * The build output should be in `www-built` folder as specified in `config.js`.
 
 ## Running the tests in a browser
 
