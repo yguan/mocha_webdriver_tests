@@ -9,6 +9,7 @@ Prerequisites
 * node.js
 * grunt.js (run `npm install -g grunt` to install it)
 * have firefox installed
+* have java installed (and added to the PATH for Windows)
 
 Steps
 
