@@ -15,6 +15,7 @@ browser.init({
     tags: ['some test'],
     name: 'This is an example test'
 }).then(function () {
+        // should have some waiting logic here to wait for the page loaded everything
         return browser.get(runnerConfig.testSiteUrl);
     }).then(function () {
         return browser.execute(runnerConfig.getScriptsToInject());
